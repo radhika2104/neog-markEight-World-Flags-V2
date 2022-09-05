@@ -14,9 +14,11 @@ This is an app which takes in user's input of a flag emoticon via. click or type
 
 ## Learnings
 
-- replaceAll and charAt build-in function in javascript
-- typecasting and cons of typecasting before elimination of possible errors (details seperately in a blog topic)
-- traversing index and values using in and of in for loop.
+- understanding React and features - declarative, component based, all devices 
+- managing DOM elements of webpages using ReactTDOM
+- concepts of JSX - a template language with combined sytax for HTML, CSS powered by Javascript
+- updating state of variable using useState
+- using map function on arrays with callback function
 
 ## Tech stack Used
 
