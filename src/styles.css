@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #fda4af;
+  --secondary-color: #0c4a6e;
+  --tertiary-color: #ffe4e6;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--tertiary-color);
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-diplay-country {
+  max-width: 500px;
+  font-size: xx-large;
+  padding: 1rem 1rem;
+  color: var(--secondary-color);
+}
+
+.main-question-text {
+  margin: 2rem 1rem 1rem 1rem;
+  font-size: larger;
+  color: var(--secondary-color);
+}
+
+.main-input-flag {
+  width: 60%;
+  height: 3rem;
+  margin: 1rem 1rem 1rem 1rem;
+  border: 0px;
+}
+
+.list-container {
+  margin: auto;
+}
+ul {
+  padding-inline-start: 0px;
+}
+
+nav {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  font-weight: 500;
+  font-size: large;
+  margin: 0rem;
+}
+
+footer {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  text-align: center;
+  border-top-right-radius: 2rem;
+  margin: auto 0rem 0rem 0rem;
+}
+.footer-link {
+  color: black;
+  font-weight: bold;
+}
